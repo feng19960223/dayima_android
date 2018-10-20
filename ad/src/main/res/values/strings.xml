@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ad</string>
+    <string name="ad_big_dayima_title">ad_big_dayima_title</string>
+    <string name="ad_big_dayima_content">ad_big_dayima_content</string>
+    <string name="ad_small_dayima_title">ad_small_dayima_title</string>
+    <string name="ad_small_dayima_content">ad_small_dayima_content</string>
+</resources>

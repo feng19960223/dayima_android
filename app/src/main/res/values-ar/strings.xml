@@ -1,0 +1,309 @@
+<resources>
+    <string name="Menstrualmanagementn">ادارة الدورة</string>
+    <string name="Makeloverecordn">الجماع</string>
+    <string name="Aboutus">من نحن</string>
+    <string name="Menstrualcycle">مدة الدورة</string>
+    <string name="Durationdays"> مدة الدورة</string>
+
+    <!--<string name="app_name">Enayeh</string>-->
+    <string name="app_name">عناية</string>
+
+    <string name="loginFailed">فشل تسجيل الدخول</string>
+    <string name="basic_information_text">يرجى ملئ المعلومات الأساسية الخاصة بكِ\nلتّعرفي نفسك بشكل أفضل</string>
+    <string name="Dateofbirth">تاريخ الميلاد</string>
+    <string name="Bodyweight">الوزن</string>
+    <string name="Recordheight">الطول</string>
+    <string name="days_cycle_text">يرجى ادخال المعلومات المتعلقة بدورتك الشهرية</string>
+    <string name="Idontknow">لا أعلم</string>
+    <string name="Menstruationcycle">مدة الدورة</string>
+    <string name="days_setting_text"> مدة الدورة السابقة</string>
+    <string name="Menstruationdurationdays"> مدة الدورة</string>
+    <string name="health_reminder_1">بداية الدورة</string>
+    <string name="health_reminder_1_1">تنبيهي قبل يومين من الدورة</string>
+    <string name="health_reminder_2">نهاية الدورة</string>
+    <string name="health_reminder_2_1">وضع علامة على نهاية الدورة</string>
+    <string name="health_reminder_3">وسائل منع الحمل الطارئة</string>
+    <string name="health_reminder_3_1"> سيساعدك على تنبيهك عندما تحتاجين وسائل منع الحمل</string>
+    <string name="health_reminder_4"> الماء</string>
+    <string name="health_reminder_4_1">شرب 8 أكواب من الماء يوميا، كل كوب150-200 مل</string>
+    <string name="health_reminder_4_2">الوقت المقترح</string>
+    <!--<string name="login_main_text">تقويم الدورة ومتتبع الإباضة كل امرأة تحتاجه! </string>-->
+    <string name="login_main_text">نحن نقدم خيار أفضل لك لإدارة الدورة الشهرية والصحة.</string>
+    <string name="UserAgreement">استخدمي البروتوكول</string>
+    <string name="Menstrualmanagement">ادارة الدورة</string>
+    <string name="Makeloverecord">الجماع</string>
+    <string name="Healthhabits">العادات الصحية</string>
+    <string name="Healthhabitsn">العادات الصحية</string>
+    <string name="Moodrecord">المزاج </string>
+    <string name="Moodrecordn">المزاج </string>
+    <string name="Healthreminder">المنبه الصحي</string>
+    <string name="Healthremindern">المنبه الصحي</string>
+    <string name="Menstrualperiod">فترة الدورة</string>
+    <string name="Menstrualperiodn">فترة الدورة</string>
+    <!--修改Menstrualperiod-->
+    <string name="Expectedmenstrualperiod">توقعات الدورة القادمة</string>
+    <string name="Expectedmenstrualperiodn">توقعات الدورة القادمة</string>
+    <string name="Ovulation">فترة الخصوبة</string>
+    <string name="OvulationDay">يوم التبويض</string>
+    <string name="OvulationDayn">يوم التبويض</string>
+    <string name="Menstrualflow">التدفق</string>
+    <string name="Dysmenorrhea">التشنجات</string>
+    <string name="Editmenstrualdate">تحرير الدورة الشهريه</string>
+    <string name="Healthstatistics">الإحصائيات الصحية</string>
+    <!--
+    <string name="Feedback">ردود الفعل</string>
+    -->
+    <string name="Contactus">اتصلي بنا</string>
+    <string name="select_status_text">اختاري حالتك</string>
+    <string name="select_status_1">اريد طفل</string>
+    <string name="select_status_2">احتاج منبه الدورة</string>
+    <string name="time_setting_text">تاريخ بداية الدورة السابقة </string>
+    <string name="Starttime">تاريخ البداية</string>
+    <string name="Securityperiod">فترة الأمان</string>
+    <string name="Securityperiodn">فترة الأمان</string>
+    <string name="less">منخفض</string>
+    <string name="medium">متوسط</string>
+    <string name="more">مرتفع</string>
+    <string name="Mildly">معتدل</string>
+    <string name="Moderate">متوسط</string>
+    <string name="Severe">حاد</string>
+    <string name="coming">هل بدأت دورتك؟</string>
+    <string name="weight">الوزن</string>
+    <string name="move">الرياضة</string>
+    <string name="water">الماء</string>
+    <string name="fruit">الفاكهة</string>
+    <string name="defecation">التغوط </string>
+    <string name="Sohappy">سعيدة جدا</string>
+    <string name="happy">سعيدة</string>
+    <string name="common">عادية</string>
+    <string name="unhappy">غير سعيدة</string>
+    <string name="sad">حزينة</string>
+    <string name="StartReminding">تشغيل المنبه</string>
+
+    <string name="GO">اذهبي</string>
+    <string name="FACEBOOK">تسجيل الدخول مع فيسبوك</string>
+    <string name="GOOGLE">تسجيل الدخول مع غوغل</string>
+    <string name="NEXT">التالي</string>
+    <string name="CANCEL">إلغ</string>
+    <string name="OK">حسنا</string>
+
+    <string name="USERAGREEMENT">اتفاقية المستخدم</string>
+    <string name="BASICINFORMATION">المعلومات الأساسية</string>
+    <string name="DAYSSETTING">اعدادات الأيام</string>
+    <string name="NEWS">الأخبار</string>
+    <string name="HEALTHREMINDER">المنبه الصحي</string>
+    <string name="SELECTTHESTATUS">اختاري الحالة</string>
+    <string name="TIMESETTING">اعدادات الوقت</string>
+    <string name="WEIGHTDATA">بيانات الوزن</string>
+
+    <string name="Careforwomen">Enayeh</string>
+    <string name="Remindtime">تنبيه الوقت </string>
+    <string name="Endreminding">انهاء التنبيه</string>
+    <string name="agreement">الاتفاقية لا تتفق مع</string>
+    <string name="Yourweight">الوزن</string>
+    <string name="Addweight">اضافة الوزن</string>
+    <string name="now">الآن</string>
+    <string name="Noaction">لا يوجد</string>
+    <string name="protecte"> محمي</string>
+    <string name="Noprotection">غير محمي</string>
+    <string name="Strongsexualdesire">رغبة قوية</string>
+    <string name="Masturbation">ممارسة العادة السرية</string>
+
+    <string name="Day">تاريخ الدورة</string>
+    <string name="Days">يوم</string>
+    <string name="kg">كجم</string>
+    <string name="cm">سم</string>
+    <string name="am">صباحا</string>
+    <string name="pm">مساءا</string>
+
+    <string name="BeginningTitle">بداية الدورة</string>
+    <string name="BeginningContent">الدورة ستبدأ بعد 2 يوم. حافظي على الدفء وخفضي من كمية التمارين اليومية</string>
+    <string name="EndTitle">نهاية الدورة</string>
+    <string name="EndContent">الدورة سوف تنتهي بعد 2 يوم. لا تنسي ملاحظة ذلك! </string>
+    <string name="MedicationTitle">تذكير الدواء</string>
+    <string name="MedicationContent">عزيزتي، لا تنسي تناول الدواء.</string>
+    <string name="DrinkTitle">8 أكواب من الماء</string>
+    <string name="DrinkContent1">اشربي 1 كوب عند الاستيقاظ لانعاش جسمك </string>
+    <string name="DrinkContent2">اشربي 1 كوب قبل العمل لحجز ما يكفي من المياه لكامل الصباح، مما يجعلك تشعرين أفضل </string>
+    <string name="DrinkContent3">اشربي 1 كوب قبل الغداء للترطيب </string>
+    <string name="DrinkContent4">اشربي 1 كوب بعد الغداء للمساعدة على الهضم</string>
+    <string name="DrinkContent5">اشربي 1 كوب خلال الشاي بعد الظهر لانعاش نفسك </string>
+    <string name="DrinkContent6">اشربي 1 كوب في وقت متأخر بعد الظهر لتخفيف التعب </string>
+    <string name="DrinkContent7">اشربي 1 كوب في ذروة عملية التمثيل الغذائي لإفراز النفايات من الجسم</string>
+    <string name="DrinkContent8">اشربي 1 كوب 2 ساعة قبل النوم لتخزين الماء بما فيه الكفاية لليلة كاملة</string>
+
+    <string name="TERMS">الشروط</string>
+    <string name="PRIVACYPOLICY">سياسة الخصوصية</string>
+    <string name="ABOUTUS">معلوما</string>
+    <string name="Youagreetoour">أنت تتفقين مع</string>
+    <string name="terms">الشروط</string>
+    <string name="privacypolicy">سياسة الخصوصية</string>
+
+
+    <string name="tip1">دورتك ستبدأ خلال {0} أيام</string>
+    <string name="tip2">انتي في فتره الدورة،حافظي على الدفئ والمزاج الجيد!</string>
+    <string name="tip3">حان وقت توديع هذه الدورة!</string>
+
+    <string name="welcometo">مرحبا بك في</string>
+    <string name="Logout">الخروج</string>
+    <string name="loadmore">تحميل المزيد</string>
+    <string name="huidaojintian">العودة إلى اليوم</string>
+    <string name="wufajiluweilaiderizhi">لا يمكنك تسجيل الايام المقبلة</string>
+    <string name="tuisuandangrichuyuyuejingqi">الموعد المقدر للحائض</string>
+    <string name="tuisuandangrichuyupailuanqi">حساب تاريخ الإباضة</string>
+    <string name="tuisuandangrichuyupailuanri">إسقاطات التاريخ على يوم الإباضة</string>
+    <string name="Sunday">الأحد</string>
+    <string name="Monday">الإثنين</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">الأربعاء</string>
+    <string name="Thursday">الخميس</string>
+    <string name="Friday">الجمعة</string>
+    <string name="Saturday">السبت</string>
+
+    <string name="today">اليوم</string>
+    <string name="nomore">لا يوجد المزيد</string>
+    <string name="Skip">تخطي</string>
+    <string name="PleaseLogin">الرجاء تسجيل دخول</string>
+
+
+    <!--名词解释-->
+    <string name="NOUNINTERPRETATION">شرح المصطلحات</string>
+
+    <string name="CONDITION">ضبط ال</string>
+    <string name="SETCYCLE">ضبط الدورة</string>
+    <string name="COLLECTION">مفضلاتي</string>
+    <string name="COMMENTS">تعليقاتي</string>
+
+    <string name="state"> ضبط الحاله</string>
+    <string name="state1">اريد طفل</string>
+    <string name="state2">احتاج منبه الدورة</string>
+
+    <string name="titleBianji">نصا</string>
+    <string name="messageBianji">هل تريدي أضافة بيانات الدروة الأن؟</string>
+    <string name="messageBianjiqipao">أضغط لتسجيل بيانات الدورة</string>
+
+    <!--所有的dialog用的title都是  提示  2个字-->
+    <string name="dialogTitle">نصا</string>
+
+    <!--提示从追踪切换到怀孕的提醒头-->
+    <string name="title1">نصا</string>
+    <!--提示从追踪切换到怀孕的提醒內容-->
+    <string name="message1">هل فعلا تريدي التبديل الى وضع الدورة؟</string>
+
+    <!--提示从怀孕切换到追踪的提醒头-->
+    <string name="title2">نصا</string>
+    <!--提示从怀孕切换到追踪的提醒內容-->
+    <string name="message2">هل فعلا تريدي التبديل الى وضع الحمل؟</string>
+
+    <string name="FINISH">إنهاء</string>
+    <string name="comment_hint">أترك تعليق</string>
+    <string name="edit">تحرير</string>
+    <string name="delete">حذف</string>
+    <string name="allselect">إختيار الكل</string>
+    <string name="allNoselect">تراجع</string>
+    <string name="comment">للتعليق</string>
+    <string name="function3_hint">العادات الصحية</string>
+    <string name="function4_hint">تسجيل الحالات النفسية</string>
+
+    <!--个人收藏和个人评论，没有收藏和评论时候的提示-->
+    <string name="noCollection">لم تضيفي اي محتوى للمفضلة بعد</string>
+    <string name="gotoCollection">إضيفي الى المفضلة</string>
+    <string name="noComment">لا يوجد لك أ</string>
+    <string name="gotoComment">إذهبي للتعليق</string>
+
+    <!--是否使用流量观看视频的title，content-->
+    <string name="wifiTitle">نصا</string>
+    <string name="wifiContent"> لا يوجد ,WiFi الاستمرار بإستخدام بيانات نت الشريحة ؟</string>
+
+    <string name="LoginTitle">نصا</string>
+
+    <string name="loading">جار التحميل</string>
+    <string name="send">إرسال</string>
+
+    <string name="main">الرئيسية</string>
+    <string name="video">فيديو</string>
+    <string name="my">أنا</string>
+    <string name="like">إعجاب</string>
+    <string name="all_comment">كل التعليقات</string>
+    <string name="conceive_probability">إحتمالية الحمل</string>
+    <string name="become_first_people">كوني اول المعلقين !</string>
+    <!--feed的item更多4个-->
+
+    <string name="more1">حفظ</string>
+    <!--<string name="more2">لا يعجبني</string>-->
+    <string name="more3">لست مهتم به</string>
+    <string name="more4">بلاغ</string>
+    <string name="VIEWALLCONTENT">كل التعليقات</string>
+    <string name="reportTitle">بلاغ</string>
+    <string name="LoginContent">هل تريدي الاحتفاظ بنسخة إحتياطية من البيانات الى حسابك؟</string>
+
+
+    <!--更多的副标题-->
+    <string name="more1explain">اضافه هذه المقاله للمفضلة</string>
+    <!--<string name="more2explain">I don\'t like this article,I must mark it</string>-->
+    <string name="more3explain">عدم ظهور مثل هذه المقالات</string>
+    <string name="more4explain">الإبلاغ عن هذه المقاله</string>
+
+    <string name="more5">الغاء الحفظ</string>
+    <string name="more5explain">مسح هذه المقاله من المفضلة</string>
+
+    <string name="setcycle_title">يرجى تحديث المعلومات الخاصة بك</string>
+
+    <string name="report1">إباحي</string>
+    <string name="report2">هذا المحتوى مسيء</string>
+    <string name="report3">محتوى غير مرغوب فيه</string>
+    <string name="report4">انا لا احب ذلك</string>
+    <string name="report5">لأسباب اخرى</string>
+
+    <string name="report_success">نشكرك على الإبلاغ</string>
+    <string name="report_fail">فشل الإبلاغ</string>
+
+
+    <string name="operationSuccess">تمت العملية بنجاح</string>
+    <string name="operationFail">فشلت العمليه</string>
+
+    <string name="loadmore_data">تحميل المزيد من البيانات</string>
+
+    <!--<string name="content_cannot_empty">评论不能为空</string>-->
+    <string name="views">مشاهدة</string>
+
+
+    <string name="Menstrualperiod_text">
+عندما تصل الفتاة إلى سن البلوغ يحدث لها العديد من التغيرات الجسدية , ومن أهم ما يحدث للفتاة من تغيرات هي التغيرات الفسيولوجية وهو نزول دم الحيض أو حدوث الدورة الشهرية كما يطلق عليها .
+أما عن الوقت المستغرق بين كل دورة شهرية وأخرى فهو يتراوح أيضا بين 24 يوم إلى 35 يوما يختلف من شابة إلى شابة أخرى
+ما هي الأشياء الهامة التي ينبغي علينا الاهتمام بها خلال فترة الدورة الشهرية ؟
+ 
+التغذية : فيجب عليك تناول الأطعمة والمشروبات الغنية بالفيتامينات والسعرات الحرارية اللازمة للجسم , وعليك بالسوائل الدافئة كطريقة هامة للتخلص من الم البطن
+ 
+النظافة : ينبغي على كل فتاة مضاعفة العناية بالنظافة في هذه الفترة, لان دم الحيض به العديد من الميكروبات الضارة جدا فيجب عليك الاهتمام بالنظافة.
+ 
+الراحة : يجب عليك البعد عن الأنشطة التي تحتاج إلى جهد  مضاعف ,  حتى لا تضاعفي الم الدورة الشهرية
+ 
+أخيرا عليك بتقبل هذه الفترة كل شهر فهي سبب وجود جنين يملأ حياتك بالسعادة والفرحة .
+
+    </string>
+    <string name="Expectedmenstrualperiod_text">
+هنا يأتي دور تطبيق عنايه حيث يسهل عليك الحساب  ويساعدك على توقع وقت مجيء الدورة القادمة من خلال تحليل وحساب البيانات التي تقومين بإدخالها :كعدد ايام الدورة ، كم عدد ايامها  وغيرها من المعلومات ،وللحصول على معلومات ادق  فيجب عليك إدخال بياناتك   بإنتظام كل شهر فهذا يساعدنا ان نعطيك معلومات اكثر دقة .
+
+    </string>
+    <string name="Ovulation_text">
+فترة الخصوبة هي الفترة التي يمكن خلالها حدوث الحمل، وتأتي قبل الدورة التالية بحوالي 14 يوما، أول 5 أيام قبل يوم الإباضة و 4 أيام بعد يوم الإباضة،  ما مجموعه 10 ايام ، لتجنب الحمل عليك  اخذ الاحتياطات اللازمه. 
+
+    </string>
+    <string name="OvulationDay_text">
+        التبويض او الاباضة هى خروج بويضة ناضجة من المبيض استعداد للتخصيب وحدوث الحمل ،وعادة ما تحدث الاباضة فى اليوم 14 من الدورة الشهرية لمن تكون دورتهم 28 يوماً ،وتكون البويضة صالحة للتلقيح بالحيوان المنوى لمدة 12الى 48 ساعة بعد خروجها من المبيض، على الرغم من انة قد تستمر فترة الخصوبة لدى بعض السيدات لمدة اسبوع ولكن تكون البويضة اكثر خصوبة خلال تلك الفترة ، لذالك أذا كنت ترغبين فى الحمل يفضل ممارسة العلاقة مع الزوج خلال اسبوع ايام التبويض مرة يوم بعد يوم على الاقل وتعتبر تلك استراتيجية فعالة لحدوث الحمل فى أيام التبويض عند المرآة .
+
+    </string>
+
+    <string name="Securityperiod_text">
+هي الفترة التي لا يمكن حدوث حمل  خلالها و بالتالي يمكن حدوث جماع دون قلق من حدوث حمل ودون استخدام أي وسيلة لمنع الحمل خلال تلك الفترة.وتنقسم فترة الامان الي مدتين:المدة الاولى هي فترة الامان قبل التبويض وتبدأ يوم انتهاء الدورة ولمدة ثلاثة ايام بعدها،والمدة الثانيه تبدأ منذ انتهاء التبويض بيوم وحتى مجئ الدوره الشهريه التالية.
+
+    </string>
+
+    <string name="menucycle">%sيوم</string>
+    <string name="collectionSuccess">تمت العملية بنجاح</string>
+    <string name="collectionFail">فش</string>
+    <string name="Dayss"> اليوم</string>
+    <string name="network_error">حدث خطأ في الشبكة، يرجى التحقق وإعادة المحاولة لاحقا</string>
+    <string name="retry"> تحديث </string>
+</resources>

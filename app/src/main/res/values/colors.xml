@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FF1878</color>-->
+    <color name="colorPrimary">#FF189F</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF189F</color>
+    <color name="colorTextMain">#DE000000</color>
+    <color name="colorTextSubtitle">#84000000</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextWhiteNoCode">#8AFFFFFF</color>
+    <color name="colorFacebook">#4961A6</color>
+    <color name="colorGoogle">#4285f3</color>
+    <color name="colorPhoneTrue">#3D3D3D</color>
+    <color name="colorBtnNoGetCode">#757575</color>
+    <color name="colorBtnGetCode">#4D4D4D</color>
+    <color name="colorBtnFocusNo">#424F4F4F</color>
+    <color name="colorLine">#DEDEDE</color>
+    <color name="line">#aeaeae</color>
+    <color name="colorMain2">#FF189F</color>
+
+    <!--  大姨妈配色 -->
+    <color name="colorDayNormal">#D8D8D8</color>
+    <color name="colorDaySecurity">#00B0FF</color>
+    <color name="colorDayOvulation">#B353FF</color>
+    <color name="colorDayOvulationDay">#FF9F00</color>
+    <color name="colorDayOther">#FFFFFF</color>
+    <color name="colorMenstrual">#ffdef2</color>
+    <color name="colorDayOvulation2">#E2BCFF</color>
+    <color name="colorDayOvulationDay2">#FFD99A</color>
+
+    <color name="colorTextFunction">#999999</color>
+    <color name="colorTextDialog">#61000000</color>
+    <color name="colorButtonBg">#BDBDBD</color>
+
+    <color name="colorTextWeight">#757575</color>
+    <color name="colorTextTime1">#61000000</color>
+    <color name="colorTextTime2">#00B0FF</color>
+    <color name="colorTextTime3">#DE000000</color>
+    <color name="colorTextTime4">#FFFFFF</color>
+
+    <color name="color0">#C6C6C6</color>
+    <color name="color1">#999999</color>
+    <color name="color2">#666666</color>
+    <color name="color3">#333333</color>
+
+</resources>

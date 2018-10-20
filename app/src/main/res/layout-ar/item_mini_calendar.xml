@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="140dp"
+             android:layout_height="140dp">
+
+    <LinearLayout
+        android:id="@+id/bigDayInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textDayPeriodStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="@string/Menstrualcycle"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textDayDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jul 06"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/miniCalFontSize1"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:baselineAligned="false"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:textAlignment="inherit">
+
+            <TextView
+                android:id="@+id/textDayCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/white"
+                android:textSize="24dp"/>
+
+            <TextView
+                android:id="@+id/textDayCountTail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="7dp"
+                android:text="st 天"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_probability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#99FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp"
+                android:text="@string/conceive_probability"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_conceive_probability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/smallDayInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textViewDateNum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="88"
+            android:textColor="@android:color/white"
+            android:textSize="80dp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/messageBianjiqipao"
+        android:textColor="#666666"
+        android:textSize="14dp"
+        android:visibility="invisible"/>
+
+</FrameLayout>

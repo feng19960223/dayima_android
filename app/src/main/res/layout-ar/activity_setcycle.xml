@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_bg_login"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="22dp"
+            app:srcCompat="@drawable/ic_arrow_drop_right_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_gravity="center"
+            android:paddingTop="28dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/TIMESETTING"
+            android:textColor="#FFF"
+            android:textSize="18dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/setcycle_title"
+        android:textColor="@color/color2"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"/>
+
+    <LinearLayout
+        android:id="@+id/ll_duration_day"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Menstruationdurationdays"
+            android:textColor="@color/colorTextMain"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/tv_duration_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 days"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            app:srcCompat="@drawable/ic_chevron_left_24dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/colorLine"/>
+
+    <LinearLayout
+        android:id="@+id/ll_cycle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Menstrualcycle"
+            android:textColor="@color/colorTextMain"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/tv_cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28 days"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp"/>
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            app:srcCompat="@drawable/ic_chevron_left_24dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/colorLine"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/shape_btn_focusno"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/FINISH"
+        android:textColor="@color/selector_text_next_3"
+        android:textSize="18dp"/>
+
+</LinearLayout>

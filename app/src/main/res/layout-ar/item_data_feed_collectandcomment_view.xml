@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/ll_itemview"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="14dp"
+              android:orientation="horizontal">
+
+    <!--编辑-->
+    <ImageView
+        android:id="@+id/iv_select"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:src="@mipmap/ic_quan_d"
+        android:visibility="gone"/>
+    <!--收藏item-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--主内容-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--一张图片-->
+                <LinearLayout
+                    android:id="@+id/ll_onePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_onePicture"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="14dp"
+                            android:ellipsize="end"
+                            android:lineSpacingExtra="3dp"
+                            android:maxLines="2"
+                            android:text="@string/Ovulation_text"
+                            android:textColor="#333333"
+                            android:textSize="18dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_onePicture_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="14dp"
+                            android:layout_marginTop="12dp"
+                            android:ellipsize="end"
+                            android:lines="1"
+                            android:text="@string/Ovulation_text"
+                            android:textColor="#999999"
+                            android:textSize="12dp"/>
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="0px"
+                        app:cardMaxElevation="2px"
+                        app:cardUseCompatPadding="false"
+                        app:contentPaddingBottom="-20dp"
+                        app:contentPaddingTop="-20dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_onePicture"
+                            android:layout_width="126dp"
+                            android:layout_height="86dp"
+
+                            android:src="@mipmap/bg_pic1"/>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <!--三张图片-->
+                <LinearLayout
+                    android:id="@+id/ll_threePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_threePicture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="3dp"
+                        android:maxLines="2"
+                        android:text="@string/Ovulation_text"
+                        android:textColor="#333333"
+                        android:textSize="18dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="96dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="0px"
+                            app:cardMaxElevation="2px"
+                            app:cardUseCompatPadding="false"
+                            app:contentPaddingBottom="-20dp"
+                            app:contentPaddingTop="-20dp">
+
+                            <ImageView
+                                android:id="@+id/iv_threePicture1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/bg_pic3"/>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="96dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="0px"
+                            app:cardMaxElevation="2px"
+                            app:cardUseCompatPadding="false"
+                            app:contentPaddingBottom="-20dp"
+                            app:contentPaddingTop="-20dp">
+
+                            <ImageView
+                                android:id="@+id/iv_threePicture2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/bg_pic3"/>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="96dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="0px"
+                            app:cardMaxElevation="2px"
+                            app:cardUseCompatPadding="false"
+                            app:contentPaddingBottom="-20dp"
+                            app:contentPaddingTop="-20dp">
+
+                            <ImageView
+                                android:id="@+id/iv_threePicture3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                android:src="@mipmap/bg_pic3"/>
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--视频-->
+                <LinearLayout
+                    android:id="@+id/ll_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="14dp"
+                        android:layout_marginStart="14dp"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="3dp"
+                        android:maxLines="2"
+                        android:text="@string/Ovulation_text"
+                        android:textColor="#333333"
+                        android:textSize="18dp"/>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginTop="12dp"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="0dp"
+                        app:cardUseCompatPadding="false"
+                        app:contentPaddingBottom="-20dp"
+                        app:contentPaddingTop="-20dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="40dp">
+                            <!--缩略图-->
+                            <ImageView
+                                android:id="@+id/iv_thumbnail"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@mipmap/bg_video"
+                                android:scaleType="centerCrop"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+                                <!--播放-->
+                                <ImageView
+                                    android:id="@+id/iv_playnew"
+                                    android:layout_width="55dp"
+                                    android:layout_height="55dp"
+                                    android:src="@mipmap/ic_player"/>
+                                <!--错误提示-->
+                                <TextView
+                                    android:id="@+id/tv_error"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="错误提示"
+                                    android:visibility="gone"/>
+                            </LinearLayout>
+                        </FrameLayout>
+                        <!--视频-->
+                        <!--动态加载-->
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </FrameLayout>
+            <!--评论-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="14dp"
+                android:gravity="center_vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/iv_newcollect"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@mipmap/ic_newcollect"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_source"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="来源"
+                    android:textColor="#999999"
+                    android:textSize="12dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_comment"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@mipmap/ic_comment_d"/>
+
+                <TextView
+                    android:id="@+id/tv_comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comment"
+                    android:textColor="#999999"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="2dp"
+            android:background="#E1E1E1"/>
+    </LinearLayout>
+</LinearLayout>

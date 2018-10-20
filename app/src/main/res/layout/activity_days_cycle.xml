@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_bg_login"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="22dp"
+            app:srcCompat="@drawable/ic_arrow_drop_left_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="28dp"
+            android:gravity="center"
+            android:text="@string/DAYSSETTING"
+            android:textColor="#FFF"
+            android:textSize="18dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="@string/days_cycle_text"
+        android:textColor="@color/colorTextSubtitle"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="55dp"
+        android:background="#DEDEDE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.taiqudong.android.enayeh.view.NumberPickerView
+            android:id="@+id/npv_daysetting_day"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:npv_HintText="@string/Days"
+            app:npv_MarginStartOfHint="20dp"
+            app:npv_ShowCount="7"
+            app:npv_ShowDivider="false"
+            app:npv_TextColorHint="#333333"
+            app:npv_TextColorNormal="#999999"
+            app:npv_TextColorSelected="#333333"
+            app:npv_TextSizeHint="18dp"
+            app:npv_TextSizeNormal="18dp"
+            app:npv_TextSizeSelected="20dp"/>
+    </LinearLayout>
+    <!--6 9 c6-->
+    <Button
+        android:id="@+id/btn_dayscycle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_sbw"
+        android:gravity="center"
+        android:text="@string/NEXT"
+        android:textColor="@color/selector_text_next"
+        android:textSize="18dp"/>
+</LinearLayout>

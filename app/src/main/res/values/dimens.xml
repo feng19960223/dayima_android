@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp196">196dp</dimen>
+    <dimen name="dp148">184dp</dimen>
+    <dimen name="dp78">78dp</dimen>
+    <dimen name="dp55">55dp</dimen>
+    <dimen name="dp98">98dp</dimen>
+    <dimen name="dp205">190dp</dimen>
+    <dimen name="dp9">7dp</dimen>
+
+    <dimen name="miniCalFontSize1">14dp</dimen>
+    <dimen name="miniCalFontSize2">30sp</dimen>
+    <dimen name="miniCalFontSize3">14dp</dimen>
+    <dimen name="miniCalFontSize4">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

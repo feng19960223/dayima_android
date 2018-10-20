@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">Enayeh</string>
+
+    <string name="loginFailed">Login failed, please retry.</string>
+    <string name="basic_information_text">Please fill in your basic information\nKnow yourself better</string>
+    <string name="Dateofbirth">Date Of Birth</string>
+    <string name="Bodyweight">Body Weight</string>
+    <string name="Recordheight">Record Height</string>
+    <string name="days_cycle_text">Please record the latest menstrual cycle</string>
+    <string name="Idontknow">I don\'t know</string>
+    <string name="Menstruationcycle">Menstruation Cycle</string>
+    <string name="days_setting_text">Please record the latest menstrual duration</string>
+    <string name="Menstruationdurationdays">Menstruation Duration Days</string>
+    <string name="health_reminder_1">The beginning of the\nmenstrual period reminder</string>
+    <string name="health_reminder_1_1">Two days in advance to inform your menstruation to come</string>
+    <string name="health_reminder_2">The end of the\nmenstrual period reminder</string>
+    <string name="health_reminder_2_1">Tell the record when the menstrual is about to end</string>
+    <string name="health_reminder_3">Medication Reminder</string>
+    <string name="health_reminder_3_1">Only for people taking short-acting contraceptives for contraception</string>
+    <string name="health_reminder_4">Drink Water</string>
+    <string name="health_reminder_4_1">Drink 8 glasses of water a day,each 150&#8211;200ml</string>
+    <string name="health_reminder_4_2">Suggested Time</string>
+    <!--<string name="login_main_text">Keep track of your menstrual period\nBetter prepare for pregnancy</string>-->
+    <string name="login_main_text">We provide a better option for you to manage period and health.</string>
+    <string name="UserAgreement">User Agreement</string>
+    <string name="Menstrualmanagement">Menstrual Management</string>
+    <string name="Menstrualmanagementn">Menstrual\nManagement</string>
+    <string name="Makeloverecordn">Make Love\nRecord</string>
+    <string name="Makeloverecord">Make Love Record</string>
+    <string name="Healthhabits">Health Habits</string>
+    <string name="Healthhabitsn">Health Habits\n</string>
+    <string name="Moodrecord">Mood Record</string>
+    <string name="Moodrecordn">Mood Record\n</string>
+    <string name="Healthreminder">Health Reminder</string>
+    <string name="Healthremindern">Health\nReminder</string>
+    <string name="Menstrualperiod">Menstrual Period</string>
+    <string name="Menstrualperiodn">Menstrual\nPeriod</string>
+    <string name="Expectedmenstrualperiod">Expected Menstrual Period</string>
+    <string name="Ovulation">Ovulation</string>
+    <string name="OvulationDay">Ovulation Day</string>
+    <string name="OvulationDayn">Ovulation\nDay</string>
+    <string name="Menstrualflow">Menstrual Flow</string>
+    <string name="Dysmenorrhea">Dysmenorrhea</string>
+    <string name="Editmenstrualdate">Edit Menstrual Date</string>
+    <string name="Healthstatistics">Health Statistics</string>
+    <string name="Contactus">Contact Us</string>
+    <string name="Aboutus">About Us</string>
+    <string name="select_status_text">Please select your current status</string>
+    <string name="select_status_1">I want to be pregnant</string>
+    <string name="select_status_2">Period Tracking</string>
+    <string name="state2">Period Traking</string>
+    <string name="time_setting_text">The last menstruation start time</string>
+    <string name="Starttime">Start Time</string>
+    <string name="Menstrualcycle">Menstrual Cycle</string>
+    <string name="Durationdays">Duration Days</string>
+    <string name="Securityperiod">Security\nPeriod</string>
+    <string name="Securityperiodn">Security\nPeriod</string>
+    <string name="less">less</string>
+    <string name="medium">medium</string>
+    <string name="more">more</string>
+    <string name="Mildly">Mildly</string>
+    <string name="Moderate">Moderate</string>
+    <string name="Severe">Severe</string>
+    <string name="coming">Is menstruation coming?</string>
+    <string name="weight">weight</string>
+    <string name="move">move</string>
+    <string name="water">water</string>
+    <string name="fruit">fruit</string>
+    <string name="defecation">defecation</string>
+    <string name="Sohappy">So happy</string>
+    <string name="happy">happy</string>
+    <string name="common">common</string>
+    <string name="unhappy">unhappy</string>
+    <string name="sad">sad</string>
+    <string name="StartReminding">Start Reminding</string>
+
+    <string name="GO">GO</string>
+    <string name="FACEBOOK">SIGN IN WITH FACEBOOK</string>
+    <string name="GOOGLE">SIGN IN WITH GOOGLE</string>
+    <string name="NEXT">NEXT</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="OK">OK</string>
+
+    <string name="USERAGREEMENT">User Agreement</string>
+    <string name="BASICINFORMATION">Basic Information</string>
+    <string name="DAYSSETTING">Days Setting</string>
+    <string name="NEWS">News</string>
+    <string name="HEALTHREMINDER">Health Reminder</string>
+    <string name="SELECTTHESTATUS">Select The Status</string>
+    <string name="TIMESETTING">Time Setting</string>
+    <string name="WEIGHTDATA">Weight Data</string>
+    <string name="TERMS">Terms</string>
+    <string name="PRIVACYPOLICY">Privacy Policy</string>
+    <string name="ABOUTUS">About Us</string>
+
+    <!--<string name="Careforwomen">Care for women</string>-->
+    <string name="Careforwomen">Enayeh</string>
+    <string name="Remindtime">Remind Time&#160;</string>
+    <string name="Endreminding">End Reminding</string>
+    <string name="agreement">Agreement did not agree with</string>
+    <string name="Yourweight">Your weight</string>
+    <string name="Addweight">Add weight</string>
+    <string name="now">now</string>
+    <string name="Noaction">No action</string>
+    <string name="protecte">protected</string>
+    <string name="Noprotection">No protection</string>
+    <string name="Strongsexualdesire">Strong sexual desire</string>
+    <string name="Masturbation">Masturbation</string>
+
+    <string name="Days">Days</string>
+    <string name="Day">Day</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+
+    <string name="BeginningTitle">Period Starting</string>
+    <string name="BeginningContent">Period is going to start in 2 days. Keep warm and cut down on the amount of daily exercise</string>
+    <string name="EndTitle">Period Ending</string>
+    <string name="EndContent">Period is going to end in 2 days. Don’t forget to note that! </string>
+    <string name="MedicationTitle">Medicine Reminder</string>
+    <string name="MedicationContent">Dear, don’t forget to take medicine.</string>
+    <string name="DrinkTitle">8 Glasses of Water</string>
+    <string name="DrinkContent1">Drink 1 glass when you wake up to refresh your body </string>
+    <string name="DrinkContent2">Drink 1 glass before work to reserve enough water for the whole morning, making you feel better </string>
+    <string name="DrinkContent3">Drink 1 glass before launch to rehydrate </string>
+    <string name="DrinkContent4">Drink 1 glass after launch to help digestion</string>
+    <string name="DrinkContent5">Drink 1 glass during the afternoon tea to refresh yourself </string>
+    <string name="DrinkContent6">Drink 1 glass at the late afternoon to relieve fatigue </string>
+    <string name="DrinkContent7">Drink 1 glass at the peak of metabolism to excrete body wastes</string>
+    <string name="DrinkContent8">Drink 1 glass 2 hours before sleep to reverse enough water for the whole night </string>
+
+    <string name="tip1">Your period gonna start in {0} days</string>
+    <string name="tip2">Your period is starting. Keep warm and a good mood!</string>
+    <string name="tip3">It’s time to say goodbye to this period!</string>
+
+    <string name="Youagreetoour">You agree to our&#160;</string>
+    <string name="terms">terms</string>
+    <string name="privacypolicy">privacy policy</string>
+
+    <string name="welcometo">Welcome to</string>
+    <string name="Logout">Log Out</string>
+    <string name="loadmore">Load More</string>
+    <string name="huidaojintian">Back to today</string>
+    <string name="wufajiluweilaiderizhi">Can not record future days</string>
+    <string name="tuisuandangrichuyuyuejingqi">Calculate the day in the menstrual period</string>
+    <string name="tuisuandangrichuyupailuanqi">Calculate the date of ovulation</string>
+    <string name="tuisuandangrichuyupailuanri">projections date on ovulation day</string>
+    <string name="Sunday">S</string>
+    <string name="Monday">M</string>
+    <string name="Tuesday">T</string>
+    <string name="Wednesday">W</string>
+    <string name="Thursday">T</string>
+    <string name="Friday">F</string>
+    <string name="Saturday">S</string>
+
+    <string name="today">Today</string>
+    <string name="nomore">No More</string>
+    <string name="Skip">Skip</string>
+    <string name="PleaseLogin">Please Login</string>
+    <string name="Expectedmenstrualperiodn">Expected Menstrual\nPeriod</string>
+
+
+    <!--名词解释-->
+    <string name="NOUNINTERPRETATION">Explanation of terms</string>
+
+    <string name="CONDITION">Life Stage</string>
+    <string name="SETCYCLE">Period sitting</string>
+    <string name="COLLECTION">My Favorite</string>
+    <string name="COMMENTS">My comments</string>
+
+    <string name="state">Life Stage</string>
+    <string name="state1">I want to be pregnant</string>
+
+    <string name="titleBianji">Tips</string>
+    <string name="messageBianji">Do you want to add the data period now?</string>
+    <string name="messageBianjiqipao">Click to record period data</string>
+
+    <!--所有的dialog用的title都是  提示  2个字-->
+    <string name="dialogTitle">Tips</string>
+
+    <!--提示从追踪切换到怀孕的提醒头-->
+    <string name="title1">Tips</string>
+    <!--提示从追踪切换到怀孕的提醒內容-->
+    <string name="message1">Do you really want to switch  the pregnant load?</string>
+
+    <!--提示从怀孕切换到追踪的提醒头-->
+    <string name="title2">Tips</string>
+    <!--提示从怀孕切换到追踪的提醒內容-->
+    <string name="message2">Do you really want to switch the period load?</string>
+
+    <string name="setcycle_title">Please update your information</string>
+    <string name="FINISH">Finish</string>
+    <string name="comment_hint">Comment</string>
+    <string name="edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="allselect">All</string>
+    <string name="allNoselect">Cancel</string>
+    <string name="comment">Comment</string>
+    <string name="function3_hint">Health habits</string>
+    <string name="function4_hint">moods record</string>
+
+    <!--个人收藏和个人评论，没有收藏和评论时候的提示-->
+    <string name="noCollection">You have not added any content to your favorites yet</string>
+    <string name="gotoCollection">Add favorite</string>
+    <string name="noComment">You have no comments yet</string>
+    <string name="gotoComment">Go to comment</string>
+
+    <!--是否使用流量观看视频的title，content-->
+    <string name="wifiContent">No WiFi connection.Use cellular data instead?</string>
+
+
+    <string name="main">Home</string>
+    <string name="video">Video</string>
+    <string name="my">Me</string>
+    <string name="like">Like</string>
+    <string name="all_comment">All comments</string>
+    <string name="conceive_probability">Probability pregnancy</string>
+    <string name="become_first_people">Be the first one to comment</string>
+    <!--feed的item更多4个-->
+    <string name="more1">Favorite</string>
+    <string name="more1explain">add this article to your saved stories</string>
+    <!--<string name="more2">Dislike</string>-->
+    <!--<string name="more2explain">I don\'t like this article,I must mark it</string>-->
+    <string name="more3">Not Interested</string>
+    <string name="more3explain">see fewer articles like this</string>
+    <string name="more4">Report</string>
+    <string name="more4explain">report this article</string>
+    <string name="more5">Unsave</string>
+    <string name="more5explain">remove this article to your saved stories</string>
+
+    <string name="send">Send</string>
+    <string name="LoginTitle">Tips</string>
+    <string name="wifiTitle">Tips</string>
+
+    <string name="reportTitle">Report</string>
+    <string name="report1">Sexually explicit</string>
+    <string name="report2">Violent or offensive content</string>
+    <string name="report3">Advertisement or spam</string>
+    <string name="report4">I just don’t like it</string>
+    <string name="report5">Other reasons</string>
+    <string name="report_success">Thank you for report this</string>
+    <string name="report_fail">Report failed</string>
+    <string name="operationSuccess">done</string>
+    <string name="operationFail">failed</string>
+    <string name="loadmore_data">more</string>
+    <!--<string name="content_cannot_empty">评论不能为空</string>-->
+    <string name="loading">loading</string>
+
+    <string name="views">views</string>
+
+    <string name="VIEWALLCONTENT">All comments </string>
+    <string name="LoginContent">Do you want a backup of your data to your account?</string>
+
+    <string name="Menstrualperiod_text">The first day of your menstrual cycle is the first day of your period (day 1). The period usually then lasts anything from 3 to 7 days. Although the average cycle is 24 to 35 days, it is normal to have a cycle that is shorter or longer. You’ll probably find that if you get any period pains, they’ll be at their worst in the first few days of your period. This is because the hormones in your body are causing your womb to actively shed the lining that was built up in the previous menstrual cycle.</string>
+    <string name="Expectedmenstrualperiod_text">Enayeh app will help you to predict the time of the coming period by analyzing and calculating the data you have entered, such as period days,period length,and other information,to get more accurate result, you will have to enter your data regularly every month.</string>
+    <string name="Ovulation_text">The period when its highly susceptible to conceive, it comes before about 14 days before the next period , the first 5 days before the ovulation day and 4 days after the ovulation day , a total of 10 days, to avoid pregnancy you should take the necessary precautions.</string>
+    <string name="OvulationDay_text">Ovulation is the name of the process that happens usually once in every menstrual cycle when hormone changes trigger an ovary to release an egg. You can only become pregnant if a sperm fertilises an egg. Ovulation usually happens 12 to 16 days before your next period starts.The eggs are contained in your ovaries. During the first part of each menstrual cycle, one of the eggs is being grown and matured</string>
+    <string name="Securityperiod_text">Safe days are days where probability of conceiving is low , therefore you can be intimate without concern of conceive or using any means of contraception. This period is  two phase: the first phase starts after the end of the menstrual cycle before ovulation and lasts for three days, the second phase is the day after the compilation of the ovulation and until the next menstrual cycle.</string>
+
+    <string name="collectionSuccess">Success</string>
+    <string name="collectionFail">Failed</string>
+    <string name="menucycle">%sDays</string>
+    <string name="network_error">Network error, please try again later.</string>
+    <string name="retry">Refresh</string>
+
+</resources>

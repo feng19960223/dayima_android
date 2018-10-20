@@ -1,0 +1,9 @@
+<resources>
+    <string name="listview_header_hint_normal">اسحب للأسفلللتحديث</string>
+    <string name="listview_header_hint_release">اترك للتحديث</string>
+    <string name="listview_loading">جار التحميل...</string>
+    <string name="nomore_loading">لا يوجد المزيد</string>
+    <string name="refreshing">جار التحميل...</string>
+    <string name="refresh_done">تحميل القيام به</string>
+    <string name="loading_done">تحميل القيام به</string>
+</resources>

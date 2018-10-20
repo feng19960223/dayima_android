@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingEnd="20dp"
+              android:paddingStart="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/shape_bg_dialog_title"
+        android:gravity="center"
+        android:text="@string/reportTitle"
+        android:textColor="#FFF"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/report1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/report1"
+        android:textColor="@color/colorTextMain"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+
+    <TextView
+        android:id="@+id/report2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/report2"
+        android:textColor="@color/colorTextMain"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+
+    <TextView
+        android:id="@+id/report3"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/report3"
+        android:textColor="@color/colorTextMain"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+
+    <TextView
+        android:id="@+id/report4"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/report4"
+        android:textColor="@color/colorTextMain"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+
+    <TextView
+        android:id="@+id/report5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/report5"
+        android:textColor="@color/colorTextMain"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+
+    <TextView
+        android:id="@+id/reportCancel"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/shape_bg_dialog_content"
+        android:gravity="center"
+        android:text="@string/CANCEL"
+        android:textColor="@color/colorTextMain"
+        android:textSize="18dp"/>
+</LinearLayout>

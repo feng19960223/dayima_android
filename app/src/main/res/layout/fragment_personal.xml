@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/shape_bg_login"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/ll_nologin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <com.taiqudong.android.enayeh.view.CircleImageView
+                            android:id="@+id/civ_mrtx"
+                            android:layout_width="103dp"
+                            android:layout_height="103dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="39dp"
+                            android:src="@mipmap/ic_mrtx"/>
+
+                        <TextView
+                            android:id="@+id/tv_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:maxLines="1"
+                            android:text="ID:Enayeh123"
+                            android:textColor="@color/colorTextWhite"
+                            android:textSize="16dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_login"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/shape_tv_login"
+                            android:maxLines="1"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="14dp"
+                            android:paddingRight="14dp"
+                            android:paddingTop="4dp"
+                            android:text="@string/PleaseLogin"
+                            android:textColor="@color/colorTextWhite"
+                            android:textSize="14dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_yeslogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="49dp">
+
+                            <com.taiqudong.android.enayeh.view.CircleImageView
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@mipmap/ic_mrtx_bg"/>
+
+                            <com.taiqudong.android.enayeh.view.CircleImageView
+                                android:id="@+id/civ_icon"
+                                android:layout_width="84dp"
+                                android:layout_height="84dp"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="VInema"
+                            android:textColor="@color/colorTextWhite"
+                            android:textSize="16dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_state"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_rsjd"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/state"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/tv_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state1"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_state"
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_cycle"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_jqsz"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/SETCYCLE"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/tv_cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周期28天"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_cycle"
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLine"/>
+
+            <LinearLayout
+                android:id="@+id/menu_collect"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_wdsc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/COLLECTION"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_comment"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_wdpl"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/COMMENTS"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLine"/>
+
+            <LinearLayout
+                android:id="@+id/menu_health_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_jktx"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Healthreminder"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_health_statistics"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_tztj"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Healthstatistics"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLine"/>
+
+            <LinearLayout
+                android:id="@+id/menu_contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_lxwm"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Contactus"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_about_us"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_gywm"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/Aboutus"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLine"/>
+
+            <LinearLayout
+                android:id="@+id/menu_log_out"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@mipmap/ic_tc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/Logout"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/ic_chevron_right_24dp_huise"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

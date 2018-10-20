@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Enayeh</string>
+
+    <string name="preference_key" translatable="false">fb0db3e4dfb1ddcb0e7edeb3b69cb729</string>
+    <string name="db_name" translatable="false">3e3bddbbb1bb82a0</string>
+    <string name="facebook_app_id" translatable="false">1336833246413944</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1336833246413944</string>
+    <string name="gg_server_client_id" translatable="false">732231771273-464s81k7gchidifbarujcfvkarpccoe4.apps.googleusercontent.com</string>
+
+    <string name="loginFailed">登录失败，请重试。</string>
+    <string name="basic_information_text">请填写您的基本信息，更好地了解自己</string>
+    <string name="Dateofbirth">生日</string>
+    <string name="Bodyweight">体重</string>
+    <string name="Recordheight">身高</string>
+    <string name="days_cycle_text">请记录最新的月经周期</string>
+    <string name="Idontknow">不知道</string>
+    <string name="Menstruationcycle">月经周期</string>
+    <string name="days_setting_text">请记录最新的月经期</string>
+    <string name="Menstruationdurationdays">月经持续时间</string>
+    <string name="health_reminder_1">月经期开始提示</string>
+    <string name="health_reminder_1_1">提前两天通知你的月经来</string>
+    <string name="health_reminder_2">结束月经期提醒</string>
+    <string name="health_reminder_2_1">当月经即将结束时提醒</string>
+    <string name="health_reminder_3">药物提醒</string>
+    <string name="health_reminder_3_1">只适用于采取短效避孕方法的人</string>
+    <string name="health_reminder_4">喝水</string>
+    <string name="health_reminder_4_1">每天喝8杯水，每杯150-200毫升</string>
+    <string name="health_reminder_4_2">建议时间</string>
+    <!--<string name="login_main_text">Keep track of your menstrual period\nBetter prepare for pregnancy</string>-->
+    <string name="login_main_text">我们为您管理期间和健康提供了更好的选择。</string>
+    <string name="UserAgreement">用户协议</string>
+    <string name="Menstrualmanagement">月经管理</string>
+    <string name="Menstrualmanagementn">月经管理</string>
+    <string name="Makeloverecordn">做爱记录</string>
+    <string name="Makeloverecord">做爱记录</string>
+    <string name="Healthhabits">健康习惯</string>
+    <string name="Healthhabitsn">健康习惯</string>
+    <string name="Moodrecord">情绪记录</string>
+    <string name="Moodrecordn">情绪记录</string>
+    <string name="Healthreminder">健康提醒</string>
+    <string name="Healthremindern">健康提醒</string>
+    <string name="Menstrualperiod">月经期</string>
+    <string name="Menstrualperiodn">月经期</string>
+    <string name="Expectedmenstrualperiod">预期月经期</string>
+    <string name="Expectedmenstrualperiodn">预期月经期</string>
+    <string name="Ovulation">排卵期</string>
+    <string name="OvulationDay">排卵日</string>
+    <string name="OvulationDayn">排卵日</string>
+    <string name="Menstrualflow">月经流量</string>
+    <string name="Dysmenorrhea">痛经</string>
+    <string name="Editmenstrualdate">编辑月经日期</string>
+    <string name="Healthstatistics">体重统计</string>
+    <string name="Contactus">联系我们</string>
+    <string name="Aboutus">关于我们</string>
+    <string name="select_status_text">请选择您当前的状态</string>
+    <string name="select_status_1">我想怀孕</string>
+    <string name="select_status_2">月经追踪</string>
+    <string name="time_setting_text">最后的月经开始时间</string>
+    <string name="Starttime">开始时间</string>
+    <string name="Menstrualcycle">月经周期</string>
+    <string name="Durationdays">持续时间</string>
+    <string name="Securityperiod">安全期</string>
+    <string name="Securityperiodn">安全期</string>
+    <string name="less">少</string>
+    <string name="medium">中</string>
+    <string name="more">更多</string>
+    <string name="Mildly">轻度</string>
+    <string name="Moderate">中等</string>
+    <string name="Severe">严重</string>
+    <string name="coming">月经来了吗</string>
+    <string name="weight">体重</string>
+    <string name="move">运动</string>
+    <string name="water">喝水</string>
+    <string name="fruit">水果</string>
+    <string name="defecation">排便</string>
+    <string name="Sohappy">很开心</string>
+    <string name="happy">开心</string>
+    <string name="common">平常</string>
+    <string name="unhappy">不开心</string>
+    <string name="sad">伤心</string>
+    <string name="StartReminding">开始提醒</string>
+
+    <string name="GO">开始</string>
+    <string name="FACEBOOK">FACEBOOK 登录</string>
+    <string name="GOOGLE">GOOGLE 登录</string>
+    <string name="NEXT">下一步</string>
+    <string name="CANCEL">取消</string>
+    <string name="OK">确定</string>
+
+    <string name="USERAGREEMENT">用户协议</string>
+    <string name="BASICINFORMATION">基本信息</string>
+    <string name="DAYSSETTING">日期设定</string>
+    <string name="NEWS">新闻</string>
+    <string name="HEALTHREMINDER">健康提醒</string>
+    <string name="SELECTTHESTATUS">选择状态</string>
+    <string name="TIMESETTING">时间设定</string>
+    <string name="WEIGHTDATA">重量数据</string>
+    <string name="TERMS">条款</string>
+    <string name="PRIVACYPOLICY">隐私政策</string>
+    <string name="ABOUTUS">关于我们</string>
+
+
+    <!--<string name="Careforwomen">Care for women</string>-->
+    <string name="Careforwomen">Enayeh</string>
+    <string name="Remindtime">提醒时间&#160;</string>
+    <string name="Endreminding">结束提醒</string>
+    <string name="agreement">协议不符合</string>
+    <string name="Yourweight">你的体重</string>
+    <string name="Addweight">增加体重</string>
+    <string name="now">今</string>
+    <string name="Noaction">没有动作</string>
+    <string name="protecte">保护</string>
+    <string name="Noprotection">没有保护</string>
+    <string name="Strongsexualdesire">强烈的性欲</string>
+    <string name="Masturbation">自慰</string>
+
+    <string name="Days">天</string>
+    <string name="Day">日</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+
+    <string name="BeginningTitle">月经即将到来</string>
+    <string name="BeginningContent">2天后月经就要来咯，少吃冷饮，适当减少运动量</string>
+    <string name="EndTitle">月经即将结束</string>
+    <string name="EndContent">2天后月经就要结束咯，记得按时记录时间</string>
+    <string name="MedicationTitle">吃药提醒</string>
+    <string name="MedicationContent">亲，记得吃药哦</string>
+    <string name="DrinkTitle">每天八杯水</string>
+    <string name="DrinkContent1">起床后来一杯，有助于身体恢复正常代谢</string>
+    <string name="DrinkContent2">工作前来一杯，提前预存上午所需水分，让你更加精神</string>
+    <string name="DrinkContent3">午饭前来一杯，补充上午缺失的水分</string>
+    <string name="DrinkContent4">饭后来一杯，有助消化</string>
+    <string name="DrinkContent5">下午茶时间来一杯，让你下午有精神</string>
+    <string name="DrinkContent6">下午结束时来一杯，补水缓解疲劳</string>
+    <string name="DrinkContent7">新陈代谢巅峰时间来一杯，帮助身体排泄废物</string>
+    <string name="DrinkContent8">睡前两小时来一杯，为夜晚的身体预存水分</string>
+
+
+    <string name="tip1">距大姨妈还有{0}天</string>
+    <string name="tip2">姨妈来了，注意保暖，保持好心情哦！</string>
+    <string name="tip3">快与姨妈Say goodbye了哦!</string>
+
+    <string name="Youagreetoour">你同意我们的&#160;</string>
+    <string name="terms">条款</string>
+    <string name="privacypolicy">隐私政策</string>
+
+    <string name="welcometo">欢迎来到</string>
+    <string name="Logout">退出</string>
+    <string name="loadmore">加载更多</string>
+    <string name="huidaojintian">回到今天</string>
+    <string name="wufajiluweilaiderizhi">无法记录未来的日子</string>
+    <string name="tuisuandangrichuyuyuejingqi">推算当日处于月经期</string>
+    <string name="tuisuandangrichuyupailuanqi">推算当日处于排卵期</string>
+    <string name="tuisuandangrichuyupailuanri">推算当日处于排卵日</string>
+
+    <string name="Sunday">日</string>
+    <string name="Monday">一</string>
+    <string name="Tuesday">二</string>
+    <string name="Wednesday">三</string>
+    <string name="Thursday">四</string>
+    <string name="Friday">五</string>
+    <string name="Saturday">六</string>
+
+    <string name="today">今</string>
+    <string name="nomore">已经到底了</string>
+    <string name="Skip">跳过</string>
+    <string name="PleaseLogin">请登录</string>
+
+
+    <!--名词解释-->
+    <string name="NOUNINTERPRETATION">名词解释</string>
+    <string name="Menstrualperiod_text">潇洒的大姨妈来了，痛经、腰酸背痛、心情烦躁等症状也随之而来，这个时候要注意不能太累，不可吃生冷的食物~但是生理期也是丰胸和增强记忆力的最佳时段呢！</string>
+    <string name="Expectedmenstrualperiod_text">预测期是指Enayeh根据您的生理周期状况智能推算的月经预测期</string>
+    <string name="Ovulation_text">排卵期一般在下次大姨妈到来前的14天左右，排卵日的前5天和后4天，连同排卵日在内共10天称为排卵期（易孕期）。这个时候你身体的每一个细胞都在呼喊着：我要怀孕！但是如果你还没做好当妈妈的准备，爱爱时一定要采取避孕措施哦！</string>
+    <string name="OvulationDay_text">月经正常的情况下，女性从下次月经第一天开始算，倒数第14天为排卵日</string>
+    <string name="Securityperiod_text">月经正常的情况下，女性从下次月经第一天开始算，倒数第14天为排卵日</string>
+
+
+    <string name="CONDITION">设置状态</string>
+    <string name="SETCYCLE">周期设置</string>
+    <string name="COLLECTION">我的收藏</string>
+    <string name="COMMENTS">我的评论</string>
+
+    <string name="state">人生阶段</string>
+    <string name="state1">我想怀孕</string>
+    <string name="state2">经期追踪</string>
+    <string name="menucycle">周期%s天</string>
+
+
+    <string name="titleBianji">提示</string>
+    <string name="messageBianji">去设置经期数据文案</string>
+    <string name="messageBianjiqipao">点击记录经期数据</string>
+
+    <!--所有的dialog用的title都是  提示  2个字-->
+    <string name="dialogTitle">提示</string>
+
+    <!--提示从追踪切换到怀孕的提醒头-->
+    <string name="title1">提示</string>
+    <!--提示从追踪切换到怀孕的提醒內容-->
+    <string name="message1">确认要切换至怀孕身份？</string>
+
+    <!--提示从怀孕切换到追踪的提醒头-->
+    <string name="title2">提示</string>
+    <!--提示从怀孕切换到追踪的提醒內容-->
+    <string name="message2">确认要切换至追踪身份？</string>
+
+    <string name="setcycle_title">设置月经周期和月经持续天数</string>
+    <string name="FINISH">完成</string>
+    <string name="comment_hint">edittext提示</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="allselect">全选</string>
+    <string name="allNoselect">全不选</string>
+    <string name="comment">评论</string>
+    <string name="function3_hint">主页健康习惯弹窗What do you finish today?</string>
+    <string name="function4_hint">主页心情弹窗How are you feeling today?</string>
+
+    <!--个人收藏和个人评论，没有收藏和评论时候的提示-->
+    <string name="noCollection">沒有收藏You haven’t saved any stories yet.</string>
+    <string name="gotoCollection">开始收藏Go to collect</string>
+    <string name="noComment">沒有评论You haven’t post any comments yet.</string>
+    <string name="gotoComment">开始评论Go to post</string>
+
+    <!--是否使用流量观看视频的title，content-->
+    <string name="wifiTitle">是否使用流量观看视频的title</string>
+    <string name="wifiContent">是否使用流量观看视频的content</string>
+
+    <string name="LoginTitle">提示用户是否登录title</string>
+    <string name="LoginContent">提示用户是否登录content</string>
+
+
+    <string name="main">主页</string>
+    <string name="video">视频</string>
+    <string name="my">我的</string>
+    <string name="like">赞</string>
+    <string name="all_comment">全部评论</string>
+    <string name="VIEWALLCONTENT">-----已显示全部内容-----</string>
+    <string name="conceive_probability">怀孕几率</string>
+    <string name="become_first_people">成为第一个评论的人</string>
+    <!--feed的item更多4个-->
+    <string name="more1">Save</string>
+    <string name="more1explain">add this article to may collection</string>
+    <!--<string name="more2">Dislike</string>-->
+    <!--<string name="more2explain">I don\'t like this article,I must mark it</string>-->
+    <string name="more3">Not Interested</string>
+    <string name="more3explain">I don\'t want to see this article,cancel it please</string>
+    <string name="more4">Report</string>
+    <string name="more4explain">report thie article</string>
+    <string name="more5">UnSave</string>
+    <string name="more5explain">add this article to may collection</string>
+
+    <string name="collectionSuccess">收藏成功</string>
+
+    <string name="reportTitle">举报Title</string>
+
+    <string name="report1">色情</string>
+    <string name="report2">暴力或攻击性内容的</string>
+    <string name="report3">广告或者垃圾邮件</string>
+    <string name="report4">我只是不喜欢它</string>
+    <string name="report5">其他原因</string>
+
+    <string name="report_success">举报成功</string>
+    <string name="report_fail">举报失败</string>
+    <string name="collectionFail">收藏失败</string>
+    <string name="operationSuccess">操作成功</string>
+    <string name="operationFail">操作失败</string>
+    <string name="loadmore_data">加载更多</string>
+    <!--<string name="content_cannot_empty">评论不能为空</string>-->
+    <string name="loading">加载中</string>
+
+    <string name="views">观看数</string>
+    <string name="send">发布</string>
+    <string name="network_error">Network error, please try again later.</string>
+    <string name="retry">Refresh</string>
+</resources>

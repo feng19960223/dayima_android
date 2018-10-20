@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "732231771273",
+    "firebase_url": "https://fir-care-for-women.firebaseio.com",
+    "project_id": "firebase-care-for-women",
+    "storage_bucket": "firebase-care-for-women.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732231771273:android:0cb1b57bfcf14dda",
+        "android_client_info": {
+          "package_name": "com.taiqudong.android.careforwomen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732231771273-huovtau2gt6fhjch00ldgv5nkmpnpa6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taiqudong.android.careforwomen",
+            "certificate_hash": "b535cd70163abc5fab662537a831a0c8a6fb7308"
+          }
+        },
+        {
+          "client_id": "732231771273-oc40alldqf3ilgv4qeq8mrgnk63n81bt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taiqudong.android.careforwomen",
+            "certificate_hash": "cd80243d349fca8d71cc198e72fb3bba7a854cbb"
+          }
+        },
+        {
+          "client_id": "732231771273-0lscqdu805oknfi72r3rs5pner0j0ohm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "732231771273-0rrqed5hja7prg9gfgv62dli9jpp0o0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taiqudong.android.careforwomen",
+            "certificate_hash": "ecd5cdbaeafc7b0967e69f6526b882037d2106b6"
+          }
+        },
+        {
+          "client_id": "732231771273-464s81k7gchidifbarujcfvkarpccoe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGYrdVXKGi7GRuakTifStiOIhwT0YZ_9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732231771273-0lscqdu805oknfi72r3rs5pner0j0ohm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732231771273:android:4886d63fe0404810",
+        "android_client_info": {
+          "package_name": "com.taiqudong.android.enayeh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732231771273-sn4vj56jpo59mevdj36q2ufoue70qfjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taiqudong.android.enayeh",
+            "certificate_hash": "ecd5cdbaeafc7b0967e69f6526b882037d2106b6"
+          }
+        },
+        {
+          "client_id": "732231771273-0lscqdu805oknfi72r3rs5pner0j0ohm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "732231771273-464s81k7gchidifbarujcfvkarpccoe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGYrdVXKGi7GRuakTifStiOIhwT0YZ_9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732231771273-0lscqdu805oknfi72r3rs5pner0j0ohm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

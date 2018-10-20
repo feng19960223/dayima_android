@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--头布局-->
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_bg_login">
+
+        <LinearLayout
+            android:id="@+id/ll_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_bg_login"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="50dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="10dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="24dp"
+                    android:src="@drawable/ic_arrow_drop_right_b"
+                    android:clickable="false"
+                    android:gravity="bottom|center_horizontal"/>
+            </RelativeLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layoutDirection="ltr"
+                app:tabIndicatorColor="@android:color/white"
+                app:tabIndicatorHeight="2dp"
+                app:tabPaddingTop="28dp"
+                app:tabTextAppearance="@style/TabText"
+                app:tabSelectedTextColor="#ffffff"
+                app:tabTextColor="#B2ffffff"  />
+        </LinearLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tlb_main"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:id="@+id/ll_down"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="28dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_main_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="08"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/iv_main_open2"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    app:srcCompat="@drawable/ic_arrow_drop_down_white_24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_main_today"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:gravity="bottom"
+                android:layout_marginBottom="7dp"
+                android:paddingEnd="14dp"
+                android:text="@string/huidaojintian"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="14dp" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title">
+        <!--第一个布局-->
+        <com.taiqudong.android.enayeh.view.NestedScrollview
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/ll_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_bg_main"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_main"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="#333333"
+                        android:textSize="14dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp">
+
+                        <com.taiqudong.android.enayeh.view.miniCalendar.MiniCalendarRecyclerView
+                            android:id="@+id/miniCalendar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true" />
+
+                        <com.taiqudong.android.enayeh.view.miniCalendar.BlurCircleView
+                            android:id="@+id/miniCalendarBlurView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:clickable="false"
+                            android:focusable="false" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/today_tip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="#333333"
+                        android:textSize="14dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/my_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:id="@+id/hs"
+                        android:padding="16dp"
+                        android:background="@android:color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/ll_main_function1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minWidth="78dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="38dp"
+                                    android:layout_height="38dp"
+                                    android:src="@mipmap/ic_function1" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center"
+                                    android:text="@string/Menstrualmanagementn"
+                                    android:textColor="@color/colorTextFunction"
+                                    android:textSize="11dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_main_function2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minWidth="78dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="38dp"
+                                    android:layout_height="38dp"
+                                    android:src="@mipmap/ic_function2" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center"
+                                    android:text="@string/Makeloverecordn"
+                                    android:textColor="@color/colorTextFunction"
+                                    android:textSize="11dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_main_function3"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minWidth="78dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="38dp"
+                                    android:layout_height="38dp"
+                                    android:src="@mipmap/ic_function3" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center"
+                                    android:text="@string/Healthhabitsn"
+                                    android:textColor="@color/colorTextFunction"
+                                    android:textSize="11dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_main_function4"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minWidth="78dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="38dp"
+                                    android:layout_height="38dp"
+                                    android:src="@mipmap/ic_function4" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center"
+                                    android:text="@string/Moodrecordn"
+                                    android:textColor="@color/colorTextFunction"
+                                    android:textSize="11dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_main_function5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:minWidth="78dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="38dp"
+                                    android:layout_height="38dp"
+                                    android:src="@mipmap/ic_function5" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center"
+                                    android:text="@string/Healthremindern"
+                                    android:textColor="@color/colorTextFunction"
+                                    android:textSize="11dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <FrameLayout
+                        android:id="@+id/fl_jisuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#e0e0e0" />
+                </LinearLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp">
+
+                    <com.taiqudong.android.enayeh.view.NestedViewPager
+                        android:id="@+id/myviewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="700dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_network_error_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="700dp"
+                        android:background="@android:color/white"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="100dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_network_error" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/network_error"
+                                android:textColor="@color/color1"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tv_retry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="20dp"
+                                android:background="@drawable/shape_pink_oval"
+                                android:paddingBottom="8dp"
+                                android:paddingLeft="37dp"
+                                android:paddingRight="37dp"
+                                android:paddingTop="8dp"
+                                android:text="@string/retry"
+                                android:textColor="#ff189f" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="blocksDescendants"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_feed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </com.taiqudong.android.enayeh.view.NestedScrollview>
+        <!--点击Toolbar上的月，显示这个页面-->
+        <LinearLayout
+            android:id="@+id/ll_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <!--日历-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="26dp"
+                                android:layout_marginRight="26dp"
+                                android:layout_marginTop="20dp">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Sunday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Monday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Tuesday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Wednesday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Thursday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Friday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/Saturday"
+                                    android:textColor="@color/colorTextTime1"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <com.taiqudong.android.enayeh.view.calendar.UserCalendarView
+                                android:id="@+id/viewPager"
+                                android:layout_width="match_parent"
+                                android:layout_height="260dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="23dp"
+                                android:layout_marginRight="23dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:scrollbars="none" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="#1F000000" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ll_explain"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawablePadding="5dp"
+                                        android:drawableRight="@drawable/dot1"
+                                        android:text="@string/Menstrualperiod"
+                                        android:textColor="@color/colorTextSubtitle"
+                                        android:textSize="14dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:drawablePadding="5dp"
+                                        android:drawableRight="@drawable/dot2"
+                                        android:text="@string/Expectedmenstrualperiod"
+                                        android:textColor="@color/colorTextSubtitle"
+                                        android:textSize="14dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawablePadding="5dp"
+                                        android:drawableRight="@drawable/dot3"
+                                        android:text="@string/Ovulation"
+                                        android:textColor="@color/colorTextSubtitle"
+                                        android:textSize="14dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:drawablePadding="5dp"
+                                        android:drawableRight="@drawable/dot4"
+                                        android:text="@string/OvulationDay"
+                                        android:textColor="@color/colorTextSubtitle"
+                                        android:textSize="14dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/ic_chevron_left_24dp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#1F000000" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:id="@+id/ll_save"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <LinearLayout
+                                    android:id="@+id/ll_show"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginRight="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center_vertical"
+                                            android:text="@string/Menstrualflow"
+                                            android:textColor="@color/colorTextMain"
+                                            android:textSize="16dp" />
+
+                                        <com.taiqudong.android.enayeh.view.RadioBtn3
+                                            android:id="@+id/rb3_main_up"
+                                            android:layout_width="107dp"
+                                            android:layout_height="25dp" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0.5dp"
+                                        android:layout_marginTop="16dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:background="#1F000000" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginRight="16dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center_vertical"
+                                            android:text="@string/Dysmenorrhea"
+                                            android:textColor="@color/colorTextMain"
+                                            android:textSize="16dp" />
+
+                                        <com.taiqudong.android.enayeh.view.RadioBtn3
+                                            android:id="@+id/rb3_main_down"
+                                            android:layout_width="107dp"
+                                            android:layout_height="25dp" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0.5dp"
+                                        android:layout_marginEnd="16dp"
+                                        android:layout_marginTop="16dp"
+                                        android:background="#1F000000" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp"
+                                    android:layout_marginTop="16dp">
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/weight"
+                                        android:textColor="@color/colorTextMain"
+                                        android:textSize="16dp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_main_weight"
+                                        android:layout_width="60dp"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center_vertical|end"
+                                        android:text="@string/kg"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_weight"
+                                        android:layout_width="24dp"
+                                        android:layout_height="24dp"
+                                        android:padding="5dp"
+                                        app:srcCompat="@drawable/ic_chevron_left_24dp" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:background="#1F000000" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="@string/Healthhabits"
+                                        android:textColor="@color/colorTextMain"
+                                        android:textSize="16dp" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_move"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:layout_marginLeft="16dp"
+                                        android:src="@mipmap/ic_move_d" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_water"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:layout_marginLeft="16dp"
+                                        android:src="@mipmap/ic_water_d" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_fruit"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:layout_marginLeft="16dp"
+                                        android:src="@mipmap/ic_fruit_d" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_defecation"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:src="@mipmap/ic_defecation_d" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginTop="16dp"
+                                    android:background="#1F000000" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp">
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center_vertical"
+                                        android:paddingBottom="16dp"
+                                        android:paddingTop="16dp"
+                                        android:text="@string/Makeloverecord"
+                                        android:textColor="@color/colorTextMain"
+                                        android:textSize="16dp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_main_switch"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="12dp"
+                                        android:visibility="invisible" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_main_switch"
+                                        android:layout_width="50dp"
+                                        android:layout_height="match_parent"
+                                        android:paddingRight="16dp"
+                                        android:src="@mipmap/ic_switch_d" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:background="#1F000000" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="24dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/Moodrecord"
+                                        android:textColor="@color/colorTextMain"
+                                        android:textSize="16dp" />
+
+                                    <com.taiqudong.android.enayeh.view.RadioBtn5
+                                        android:id="@+id/rb5_main"
+                                        android:layout_width="190dp"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_today"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="invisible">
+
+                                <TextView
+                                    android:id="@+id/tv_tuisuan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:gravity="center"
+                                    android:textColor="#333333"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="6dp"
+                                    android:gravity="center"
+                                    android:text="@string/wufajiluweilaiderizhi"
+                                    android:textColor="#999999"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/tv_main_gotoday"
+                                    android:layout_width="110dp"
+                                    android:layout_height="36dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="17dp"
+                                    android:background="@drawable/shape_tv_weight_select"
+                                    android:gravity="center"
+                                    android:text="@string/huidaojintian"
+                                    android:textColor="#FF1878"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_main_edit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_bg_login"
+                android:gravity="center"
+                android:text="@string/Editmenstrualdate"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

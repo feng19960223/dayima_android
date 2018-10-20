@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_bg_login"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="22dp"
+            app:srcCompat="@drawable/ic_arrow_drop_left_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="28dp"
+            android:gravity="center"
+            android:text="@string/BASICINFORMATION"
+            android:textColor="#FFF"
+            android:textSize="18dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/basic_information_text"
+        android:textColor="@color/colorTextSubtitle"
+        android:textSize="16dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="37dp"
+        android:background="@color/colorLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Dateofbirth"
+            android:textColor="@color/colorTextMain"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_basicinformation_birth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/colorTextSubtitle"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/iv_basicinformation_birth"
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            app:srcCompat="@drawable/ic_chevron_right_24dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bodyweight"
+            android:textColor="@color/colorTextMain"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_basicinformation_weight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/colorTextSubtitle"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/iv_basicinformation_weight"
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            app:srcCompat="@drawable/ic_chevron_right_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Recordheight"
+            android:textColor="@color/colorTextMain"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_basicinformation_height"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/colorTextSubtitle"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/iv_basicinformation_height"
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            app:srcCompat="@drawable/ic_chevron_right_24dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorLine"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_basicinformation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/shape_btn_focusno"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/GO"
+        android:textColor="@color/selector_text_next_3"
+        android:textSize="18dp"/>
+</LinearLayout>

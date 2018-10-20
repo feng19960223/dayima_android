@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.taiqudong.android.careforwomen"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        // Select .so file.
+        ndk {
+//            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a','x86'
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+        }
+        multiDexEnabled false
+    }
+//
+//    signingConfigs {
+//        config {
+//            keyAlias 'dayima'
+//            keyPassword 't15115278892'
+//            storeFile file('/Users/tangxianming/Desktop/dayima.jks')
+//            storePassword 't15115278892'
+//
+//        }
+//    }
+    
+    buildTypes {
+        release {
+//            signingConfig signingConfigs.config
+            buildConfigField "String", "API_URL", "\"http://eu.api.enayehme.com/\""
+            buildConfigField "String", "VERSION_TYPE", "\"release\""
+            buildConfigField "String", "AF_KEY", "\"8zbGTxrriKvg4JvpDeTEzi\""
+            minifyEnabled true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [
+                    APP_NAME: "@string/app_name",
+            ]
+        }
+        debug {
+            //可去除下面两行，这样会使得每次构建速度加快。但是，请确保发布前开启此功能进行测试，防止意外错误。
+            minifyEnabled true
+            useProguard false
+            buildConfigField "String", "API_URL", "\"http://test.enayehme.com/\""
+            buildConfigField "String", "VERSION_TYPE", "\"debug\""
+            buildConfigField "String", "AF_KEY", "\"8zbGTxrriKvg4JvpDeTEzi\""
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [
+                    APP_NAME: "Enayeh-Test",
+            ]
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // Dependency for Google Sign-In
+    // Dependencies for the REST API example
+    //compile 'com.google.api-client:google-api-client:1.22.0'
+    //compile 'com.google.api-client:google-api-client-android:1.22.0'
+    //compile 'com.google.apis:google-api-services-people:v1-rev4-1.22.0'
+    compile project(':xrecyclerview')
+    compile project(':ad')
+    compile 'com.google.android.gms:play-services-auth:11.2.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.appsflyer:af-android-sdk:4+@aar'
+    compile 'com.google.firebase:firebase-messaging:11.0.1'
+    compile 'com.google.firebase:firebase-core:11.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ad</string>ad_big_dayima_content
+    <string name="ad_big_dayima_title">Menstrual period</string>
+    <string name="ad_big_dayima_content">The first day of your menstrual cycle is the first day of your period (day 1). The period usually then lasts anything from 3 to 7 days. Although the average cycle is 24 to 35 days, it is normal to have a cycle that is shorter or longer. You’ll probably find that if you get any period pains, they’ll be at their worst in the first few days of your period. This is because the hormones in your body are causing your womb to actively shed the lining that was built up in the previous menstrual cycle.</string>
+    <string name="ad_small_dayima_title">Expected Menstrual Period</string>
+    <string name="ad_small_dayima_content">Enayeh app will help you to predict the time of the coming period by analyzing and calculating the data you have entered, such as period days,period length,and other information,to get more accurate result, you will have to enter your data regularly every month.</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_bg_login"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_dialog_height_cancel"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            app:srcCompat="@drawable/ic_close_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Recordheight"
+            android:textColor="#FFF"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_dialog_height_ok"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/OK"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <com.taiqudong.android.enayeh.view.NumberPickerView
+        android:id="@+id/npv_height"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp148"
+        android:background="#FFFFFF"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:npv_HintText="@string/cm"
+        app:npv_MarginStartOfHint="10dp"
+        app:npv_ShowCount="7"
+        app:npv_ShowDivider="false"
+        app:npv_TextColorHint="@color/colorTextMain"
+        app:npv_TextColorNormal="#8A000000"
+        app:npv_TextColorSelected="#DE000000"
+        app:npv_TextSizeHint="18dp"
+        app:npv_TextSizeNormal="15dp"
+        app:npv_TextSizeSelected="18dp"/>
+
+
+</LinearLayout>

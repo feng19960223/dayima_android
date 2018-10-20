@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taiqudong.android.enayeh.view.calendar.CalendarMonthEditView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="26dp"
+    android:layout_marginRight="26dp"
+    android:gravity="center"
+    android:listSelector="@android:color/transparent"
+    android:numColumns="7"
+    android:scrollbars="none"/>

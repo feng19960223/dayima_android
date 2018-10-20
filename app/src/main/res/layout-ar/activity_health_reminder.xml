@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF"
+              android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_bg_login"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingTop="22dp"
+            app:srcCompat="@drawable/ic_arrow_drop_right_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_gravity="center"
+            android:paddingTop="28dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/HEALTHREMINDER"
+            android:textColor="#FFF"
+            android:textSize="18dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="21dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/health_reminder_1"
+                    android:textColor="@color/colorTextMain"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_healthremnider_beginning"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:src="@mipmap/ic_switch_d"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_healthremnider_beginning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/health_reminder_1_1"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1F000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/health_reminder_2"
+                    android:textColor="@color/colorTextMain"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_healthremnider_end"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:src="@mipmap/ic_switch_d"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_healthremnider_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/health_reminder_2_1"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1F000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:minLines="2"
+                    android:text="@string/health_reminder_3"
+                    android:textColor="@color/colorTextMain"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_healthremnider_medication"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:src="@mipmap/ic_switch_d"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_healthremnider_medication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/health_reminder_3_1"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1F000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:minLines="2"
+                    android:text="@string/health_reminder_4"
+                    android:textColor="@color/colorTextMain"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_healthremnider_drink"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:src="@mipmap/ic_switch_d"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_healthremnider_drink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/health_reminder_4_1"
+                android:textColor="@color/colorTextSubtitle"
+                android:textSize="12dp"
+                android:visibility="invisible"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/health_reminder_4_2"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="08:00"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="09:00"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="11:30"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="13:30"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="28dp"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="15:30"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="17:30"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="19:00"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="20:15"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorTextSubtitle"
+                    android:textSize="12dp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

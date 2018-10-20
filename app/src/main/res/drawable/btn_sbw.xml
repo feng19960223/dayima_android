@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--可用没点击的时候-->
+    <item android:drawable="@drawable/shape_bg_login" android:state_pressed="false"/>
+    <!--点击的时候-->
+    <item android:drawable="@drawable/shape_btn_login_p" android:state_pressed="true"/>
+    <!--不可用的时候-->
+    <item android:drawable="@drawable/shape_btn_focusno" android:state_enabled="false"/>
+</selector>

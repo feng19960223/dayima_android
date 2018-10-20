@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--不可用的时候-->
+    <item android:color = "#666666" android:state_enabled="false"/>
+    <!--可用没点击的时候-->
+    <item android:color = "#FFFFFF" android:state_pressed="false"/>
+    <!--点击的时候-->
+    <item android:color = "#FFFFFF" android:state_pressed="true"/>
+</selector>
